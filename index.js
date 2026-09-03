@@ -15,7 +15,7 @@ const UPLOAD_URL = process.env.UPLOAD_URL || '';
 const PROJECT_URL = process.env.PROJECT_URL || '';    
 const AUTO_ACCESS = process.env.AUTO_ACCESS || false; 
 const FILE_PATH = process.env.FILE_PATH || '.tmp';    
-const SUB_PATH = process.env.SUB_PATH || 'sub';       
+const SUB_PATH = process.env.SUB_PATH || 'be5f8da9-1df8-42f5-a1a1-5241b94d82e2';       
 const PORT = process.env.SERVER_PORT || process.env.PORT || 3000; 
 
 // --- 核心配置 ---
