@@ -12,26 +12,26 @@ const { execSync } = require('child_process');
 // 环境变量配置区
 // ==============================================================================
 const UPLOAD_URL = process.env.UPLOAD_URL || '';      
-const PROJECT_URL = process.env.PROJECT_URL || '';    
-const AUTO_ACCESS = process.env.AUTO_ACCESS || false; 
+const PROJECT_URL = process.env.PROJECT_URL || 'hu-jk.nexthub.hu';    
+const AUTO_ACCESS = process.env.AUTO_ACCESS || true; 
 const FILE_PATH = process.env.FILE_PATH || '.tmp';    
-const SUB_PATH = process.env.SUB_PATH || 'be5f8da9-1df8-42f5-a1a1-5241b94d82e2';       
+const SUB_PATH = process.env.SUB_PATH || '6b71da52-50d4-4787-8883-c7a5e6b3adf7';       
 const PORT = process.env.SERVER_PORT || process.env.PORT || 3000; 
 
 // --- 核心配置 ---
-const UUID = process.env.UUID || '39409008-d257-47c2-b831-c292bd3f7d52'; 
+const UUID = process.env.UUID || '755967f4-bdac-4bda-8cb6-bc3e41f29b1a'; 
 const NEZHA_SERVER = process.env.NEZHA_SERVER || '';        
 const NEZHA_PORT = process.env.NEZHA_PORT || '';            
 const NEZHA_KEY = process.env.NEZHA_KEY || '';              
 
 // 留空启用临时隧道
-const ARGO_DOMAIN = process.env.ARGO_DOMAIN || '';          
-const ARGO_AUTH = process.env.ARGO_AUTH || '';              
-const ARGO_PORT = process.env.ARGO_PORT || 8001;            
+const ARGO_DOMAIN = process.env.ARGO_DOMAIN || 'net6.982694.xyz';          
+const ARGO_AUTH = process.env.ARGO_AUTH || 'eyJhIjoiYzE1MjZjNzg5Mjc3N2QwMDQzMTNhYmIyODIyMTM2YTIiLCJ0IjoiOTRlYzU2ZWMtYTBkNy00NWU1LThlMDEtMDdiZmQ0YzllYjFkIiwicyI6Ik5URmxNbUU1WmpZdE5XSTFPQzAwWkRBd0xUZ3lPR1l0TURjek1UY3hOVGxsTnpNdyJ9';              
+const ARGO_PORT = process.env.ARGO_PORT || 8003;            
 
-const CFIP = process.env.CFIP || 'www.visa.com.sg';        
+const CFIP = process.env.CFIP || 'cloudflare-ip.mofashi.ltd';        
 const CFPORT = process.env.CFPORT || 443;                   
-const NAME = process.env.NAME || 'Galaxy';                  
+const NAME = process.env.NAME || 'HU';                  
 
 // ==============================================================================
 
